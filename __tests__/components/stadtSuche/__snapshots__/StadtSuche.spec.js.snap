@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StadtSuche renders correctly in a snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingTop": 12,
+      },
+      Object {
+        "backgroundColor": "#ff6600",
+      },
+    ]
+  }
+>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#212121",
+          },
+          Object {
+            "fontSize": 18,
+            "paddingHorizontal": 18,
+          },
+        ]
+      }
+    >
+      Suche
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "paddingHorizontal": 18,
+          "paddingVertical": 6,
+        },
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#212121",
+            },
+            Object {
+              "marginTop": 16,
+            },
+          ]
+        }
+      >
+        Stadt
+      </Text>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "#BDBDBD",
+            "borderBottomWidth": 1,
+            "marginBottom": 8,
+            "marginTop": 8,
+            "paddingBottom": 8,
+          }
+        }
+      >
+        <TextInput
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          returnKeyType="search"
+          style={
+            Object {
+              "color": "#212121",
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlobalError renders  correctly in a snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(114,114,114,0.6)",
+        "justifyContent": "center",
+        "left": 0,
+        "padding": 20,
+        "position": "absolute",
+        "top": 0,
+      },
+      Object {
+        "height": 1334,
+        "width": 750,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "paddingHorizontal": 12,
+        "paddingTop": 12,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#212121",
+          },
+          Object {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginBottom": 20,
+          },
+        ]
+      }
+    >
+      Es ist ein Fehler aufgetreten
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#212121",
+          },
+          Object {
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Fahlermessage
+    </Text>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      collapsable={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#03A9F4",
+          "height": 32,
+          "justifyContent": "center",
+          "margin": 20,
+          "opacity": 1,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#212121",
+            },
+            Object {
+              "paddingHorizontal": 16,
+            },
+          ]
+        }
+      >
+        ZURÜCK
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`GlobalError renders no error for empty message 1`] = `null`;

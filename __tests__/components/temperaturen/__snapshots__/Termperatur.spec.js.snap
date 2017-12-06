@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Temperatur renders maxTemp correctly in a snapshot 1`] = `
+<View
+  style={
+    Object {
+      "marginHorizontal": 6,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#212121",
+        },
+        Object {
+          "color": "red",
+          "fontSize": 32,
+        },
+      ]
+    }
+  >
+    12
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#212121",
+        },
+        Object {
+          "alignSelf": "center",
+        },
+      ]
+    }
+  >
+    max.
+  </Text>
+</View>
+`;
+
+exports[`Temperatur renders min Temp correctly in a snapshot 1`] = `
+<View
+  style={
+    Object {
+      "marginHorizontal": 6,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#212121",
+        },
+        Object {
+          "color": "blue",
+          "fontSize": 32,
+        },
+      ]
+    }
+  >
+    12
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#212121",
+        },
+        Object {
+          "alignSelf": "center",
+        },
+      ]
+    }
+  >
+    min.
+  </Text>
+</View>
+`;
+
+exports[`Temperatur renders normal Temp correctly in a snapshot 1`] = `
+<View
+  style={
+    Object {
+      "marginHorizontal": 6,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#212121",
+        },
+        Object {
+          "color": undefined,
+          "fontSize": 32,
+        },
+      ]
+    }
+  >
+    12
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={false}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "color": "#212121",
+        },
+        Object {
+          "alignSelf": "center",
+        },
+      ]
+    }
+  >
+    aktuell
+  </Text>
+</View>
+`;

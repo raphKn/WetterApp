@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Luft renders high bewpelkung correctly in a snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingTop": 12,
+      },
+      Object {
+        "backgroundColor": "#3770a5",
+      },
+    ]
+  }
+>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#FAFAFA",
+          },
+          Object {
+            "fontSize": 18,
+            "paddingHorizontal": 18,
+          },
+        ]
+      }
+    >
+      Wolken und Luft
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "paddingHorizontal": 18,
+          "paddingVertical": 6,
+        },
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginHorizontal": 6,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": null,
+            "justifyContent": "center",
+            "width": null,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={1}
+          style={
+            Array [
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "height": null,
+                "width": null,
+              },
+              undefined,
+            ]
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "fontSize": 24,
+                "fontWeight": "bold",
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          70
+        </Text>
+      </View>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#212121",
+            },
+            Object {
+              "alignSelf": "center",
+            },
+          ]
+        }
+      >
+        % bewölkt
+      </Text>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "fontSize": 32,
+              },
+            ]
+          }
+        >
+          40
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "alignSelf": "center",
+              },
+            ]
+          }
+        >
+          % Luftfeuchtigkeit
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "fontSize": 32,
+              },
+            ]
+          }
+        >
+          1.012
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "alignSelf": "center",
+              },
+            ]
+          }
+        >
+          hPa Luftdruck
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Luft renders low bewoelkung correctly in a snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingTop": 12,
+      },
+      Object {
+        "backgroundColor": "#3770a5",
+      },
+    ]
+  }
+>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#FAFAFA",
+          },
+          Object {
+            "fontSize": 18,
+            "paddingHorizontal": 18,
+          },
+        ]
+      }
+    >
+      Wolken und Luft
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "paddingHorizontal": 18,
+          "paddingVertical": 6,
+        },
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginHorizontal": 6,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "height": null,
+            "justifyContent": "center",
+            "width": null,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={1}
+          style={
+            Array [
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "height": null,
+                "width": null,
+              },
+              undefined,
+            ]
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "fontSize": 24,
+                "fontWeight": "bold",
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          30
+        </Text>
+      </View>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#212121",
+            },
+            Object {
+              "alignSelf": "center",
+            },
+          ]
+        }
+      >
+        % bewölkt
+      </Text>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "fontSize": 32,
+              },
+            ]
+          }
+        >
+          40
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "alignSelf": "center",
+              },
+            ]
+          }
+        >
+          % Luftfeuchtigkeit
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "fontSize": 32,
+              },
+            ]
+          }
+        >
+          1.012
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "alignSelf": "center",
+              },
+            ]
+          }
+        >
+          hPa Luftdruck
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Luft renders nothing for no luft in a snapshot 1`] = `null`;

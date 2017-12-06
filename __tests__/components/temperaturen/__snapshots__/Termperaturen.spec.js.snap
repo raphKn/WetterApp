@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Temperaturen renders correctly in a snapshot 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingTop": 12,
+        },
+        Object {
+          "backgroundColor": "#3770a5",
+        },
+      ]
+    }
+  >
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#FAFAFA",
+            },
+            Object {
+              "fontSize": 18,
+              "paddingHorizontal": 18,
+            },
+          ]
+        }
+      >
+        Temperaturen
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#E0E0E0",
+            "paddingHorizontal": 18,
+            "paddingVertical": 6,
+          },
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "marginHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "color": undefined,
+                "fontSize": 32,
+              },
+            ]
+          }
+        >
+          12
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "alignSelf": "center",
+              },
+            ]
+          }
+        >
+          aktuell
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginHorizontal": 6,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#212121",
+                },
+                Object {
+                  "color": "blue",
+                  "fontSize": 32,
+                },
+              ]
+            }
+          >
+            10
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#212121",
+                },
+                Object {
+                  "alignSelf": "center",
+                },
+              ]
+            }
+          >
+            min.
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginHorizontal": 6,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#212121",
+                },
+                Object {
+                  "color": "red",
+                  "fontSize": 32,
+                },
+              ]
+            }
+          >
+            14
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "#212121",
+                },
+                Object {
+                  "alignSelf": "center",
+                },
+              ]
+            }
+          >
+            max.
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Temperaturen renders null for no temperaturen 1`] = `null`;

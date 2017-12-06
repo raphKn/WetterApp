@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WetterEntry renders  correctly in a snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 120,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "data:image/png;base64,SonnenIcon",
+      }
+    }
+    style={
+      Object {
+        "height": 100,
+        "margin": 6,
+        "width": 100,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#212121",
+          },
+          Object {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginVertical": 6,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Sonne
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#212121",
+          },
+          Object {
+            "fontSize": 14,
+            "marginVertical": 4,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      - 
+      strahlender Sonnenschein
+       -
+    </Text>
+  </View>
+</View>
+`;

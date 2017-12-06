@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wind renders nothing for no wind in a snapshot 1`] = `null`;
+
+exports[`Wind renders strong wind correctly in a snapshot 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingTop": 12,
+        },
+        Object {
+          "backgroundColor": "#3770a5",
+        },
+      ]
+    }
+  >
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#FAFAFA",
+            },
+            Object {
+              "fontSize": 18,
+              "paddingHorizontal": 18,
+            },
+          ]
+        }
+      >
+        Wind
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#E0E0E0",
+            "paddingHorizontal": 18,
+            "paddingVertical": 6,
+          },
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginHorizontal": 6,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 38.5,
+              "width": 38.5,
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                  "height": null,
+                  "width": null,
+                },
+                Object {
+                  "transform": Array [
+                    Object {
+                      "rotate": "90deg",
+                    },
+                  ],
+                },
+              ]
+            }
+          />
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "alignSelf": "center",
+              },
+            ]
+          }
+        >
+          aus 
+          Ost
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "fontSize": 32,
+              },
+            ]
+          }
+        >
+          5.2
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "alignSelf": "center",
+              },
+            ]
+          }
+        >
+          Meter pro Sekunde
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Wind renders weak wind correctly in a snapshot 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingTop": 12,
+        },
+        Object {
+          "backgroundColor": "#3770a5",
+        },
+      ]
+    }
+  >
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#FAFAFA",
+            },
+            Object {
+              "fontSize": 18,
+              "paddingHorizontal": 18,
+            },
+          ]
+        }
+      >
+        Wind
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#E0E0E0",
+            "paddingHorizontal": 18,
+            "paddingVertical": 6,
+          },
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 6,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "fontSize": 32,
+              },
+            ]
+          }
+        >
+          0.2
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#212121",
+              },
+              Object {
+                "alignSelf": "center",
+              },
+            ]
+          }
+        >
+          Meter pro Sekunde
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

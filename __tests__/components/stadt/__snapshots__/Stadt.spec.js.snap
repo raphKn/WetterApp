@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stadt renders maxTemp correctly in a snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingTop": 12,
+      },
+      Object {
+        "backgroundColor": "#3770a5",
+      },
+    ]
+  }
+>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#FAFAFA",
+          },
+          Object {
+            "fontSize": 18,
+            "paddingHorizontal": 18,
+          },
+        ]
+      }
+    >
+      Stadt
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "paddingHorizontal": 18,
+          "paddingVertical": 6,
+        },
+        Object {},
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#212121",
+            },
+            Object {
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        Stadt
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#212121",
+            },
+            Object {
+              "fontSize": 18,
+            },
+          ]
+        }
+      >
+        name
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#212121",
+            },
+            null,
+          ]
+        }
+      >
+        Longitude
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#212121",
+            },
+            null,
+          ]
+        }
+      >
+        20.01
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#212121",
+            },
+            null,
+          ]
+        }
+      >
+        Latitude
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "color": "#212121",
+            },
+            null,
+          ]
+        }
+      >
+        20.02
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Stadt renders nothing for no stadt in a snapshot 1`] = `null`;

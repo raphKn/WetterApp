@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wetter renders nothing for no wetter in a snapshot 1`] = `null`;
+
+exports[`Wetter renders two wetter correctly in a snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "paddingTop": 12,
+      },
+      Object {
+        "backgroundColor": "#3770a5",
+      },
+    ]
+  }
+>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "color": "#FAFAFA",
+          },
+          Object {
+            "fontSize": 18,
+            "paddingHorizontal": 18,
+          },
+        ]
+      }
+    >
+      Beschreibungen
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#E0E0E0",
+          "paddingHorizontal": 18,
+          "paddingVertical": 6,
+        },
+        null,
+      ]
+    }
+  />
+</View>
+`;
